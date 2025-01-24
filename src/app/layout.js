@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "./Components/Navbar/Navbar";
 import "./globals.css";
 import { StoreProvider } from "./store/storeProvider";
 
@@ -24,7 +25,15 @@ export default function RootLayout({ children }) {
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
+          
+          <Navbar/>
+          
+          
+          
           {children}
+          <footer className="bg-slate-900 text-white p-4 text-center">
+            codevolution
+          </footer>
         </body>
       </html>
     </StoreProvider>

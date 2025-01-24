@@ -1,31 +1,12 @@
-"use client";
+import Navbar from './Components/Navbar/Navbar';
 
-// import Image from "next/image";
-// import { RootState } from './store'
-import { useDispatch, useSelector } from "react-redux";
-import { decrement, increment } from "./store/slice";
-
-
-export default function Home() {
-  const count = useSelector((state) => state.counter.value)
-  const dispatch = useDispatch()
+function MyApp({ Component, pageProps }) {
   return (
-    <div>
-      <div>
-        <button
-          aria-label="Increment value"
-          onClick={() => dispatch(increment())}
-        >
-          Increment
-        </button>
-        <span>{count}</span>
-        <button
-          aria-label="Decrement value"
-          onClick={() => dispatch(decrement())}
-        >
-          Decrement
-        </button>
-      </div>
-    </div>
+    <>
+      {/* <Navbar /> */}
+      <h1>this is mw</h1>
+          </>
   );
 }
+
+export default MyApp;
