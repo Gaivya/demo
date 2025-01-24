@@ -1,104 +1,126 @@
 export const menuData = {
-    "Home Loan": [
+    "Services": [
       {
-        label: "Home Loan",
+        label: "UI/UX Design",
         description: "All the latest updates about Home Loan in one place.",
         path: "/home-loan",
       },
       {
-        label: "Compare Home Loan Rate",
+        label: "Website Development",
+        description: "Compare rates from multiple providers instantly.",
+        path: "/compare-home-loan-rate",
+      },
+      {
+        label: "Mobile App Development",
+        description: "Compare rates from multiple providers instantly.",
+        path: "/compare-home-loan-rate",
+      },
+      {
+        label: "Digital Marketing",
+        description: "Compare rates from multiple providers instantly.",
+        path: "/compare-home-loan-rate",
+      },
+      {
+        label: "CMS Website",
+        description: "Compare rates from multiple providers instantly.",
+        path: "/compare-home-loan-rate",
+      },
+      {
+        label: "Salesforce Development",
+        description: "Compare rates from multiple providers instantly.",
+        path: "/compare-home-loan-rate",
+      },
+      {
+        label: "Custom Software Development",
         description: "Compare rates from multiple providers instantly.",
         path: "/compare-home-loan-rate",
       },
     ],
-    "Personal Loan": [
+    "Industries": [
       {
-        label: "Personal Loan",
+        label: "Health Care",
         description: "Transfer your personal loan at lower interest rates.",
         path: "/personal-loan",
       },
       {
-        label: "Compare Personal Loan Rate",
+        label: "Food",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "Business",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "Health & Fitness",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "M-Learning",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "Travel",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "On Demand",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "E-Commerce",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "Sports",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "Finanace",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "SaaS",
+        description: "Find the best personal loan rates tailored to you.",
+        path: "/compare-personal-loan-rate",
+      },
+      {
+        label: "Logistics",
         description: "Find the best personal loan rates tailored to you.",
         path: "/compare-personal-loan-rate",
       },
     ],
-    "Unsecured Business Loan": [
+    "Portfolio": [
       {
-        label: "Term Loan",
+        label: "Bada Bhai Hai Na",
         description: "Get funding for business needs with flexible terms.",
         path: "/term-loan",
       },
       {
-        label: "Working Capital",
+        label: "Green AI Pos",
         description:
           "Ensure liquidity for daily operations with working capital loans.",
         path: "/working-capital",
       },
       {
-        label: "MSME Loan",
+        label: "Green Farm Products",
         description:
           "Special loans tailored for Micro, Small, and Medium Enterprises.",
         path: "/msme-loan",
       },
-    ],
-    "Loan Against Property": [
       {
-        label: "Loan Against Property",
+        label: "Journey Monk",
         description:
-          "Leverage your property for a loan with flexible repayment options.",
-        path: "/loan-against-property",
-      },
-      {
-        label: "Compare Loan Against Property Rate",
-        description: "Evaluate the best rates for loans against property.",
-        path: "/compare-loan-against-property-rate",
-      },
-    ],
-    Insurance: [
-      {
-        label: "Term Life Insurance",
-        description: "Secure your loved ones with comprehensive term life plans.",
-        path: "/term-life-insurance",
-      },
-      {
-        label: "Car Insurance",
-        description:
-          "Get coverage for your vehicle with top car insurance plans.",
-        path: "/car-insurance",
-      },
-      {
-        label: "Health Insurance",
-        description: "Protect your health with our range of insurance plans.",
-        path: "/health-insurance",
-      },
-      {
-        label: "Two Wheeler Insurance",
-        description: "Affordable insurance for your bike or scooter.",
-        path: "/two-wheeler-insurance",
-      },
-      {
-        label: "Travel Insurance",
-        description:
-          "Ensure peace of mind on your travels with travel insurance.",
-        path: "/travel-insurance",
-      },
-      {
-        label: "Home Insurance",
-        description: "Safeguard your home with reliable home insurance policies.",
-        path: "/home-insurance",
-      },
-      {
-        label: "Stock Insurance",
-        description:
-          "Protect your investments with comprehensive stock insurance plans.",
-        path: "/stock-insurance",
-      },
-      {
-        label: "Corporate Insurance",
-        description:
-          "Secure your business with tailored corporate insurance solutions.",
-        path: "/corporate-insurance",
+          "Special loans tailored for Micro, Small, and Medium Enterprises.",
+        path: "/msme-loan",
       },
     ],
   };

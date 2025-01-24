@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import "../../styles/Navbar.css"
+import "./Navbar.css";
 import { menuData } from "../../../../public/menuData";
 
 const DropDown = ({ item, setIsMobileMenuOpen, setActiveMenu }) => {
@@ -77,7 +77,7 @@ const Navbar = () => {
         <div className="flex justify-between px-5">
           <div className="text-gray-800 text-md font-semibold text-center">
             <Link href="/" className="flex flex-col items-center">
-              <img src="./hug.png" alt="Logo" style={{ height: "50px" }} />
+              <img src="" alt="Logo" style={{ height: "50px" }} />
               Bada Bhai Hai Na
             </Link>
           </div>
@@ -105,6 +105,16 @@ const Navbar = () => {
             isMobileMenuOpen ? "max-h-screen" : "max-h-0"
           } md:flex space-x-8 items-center transition-max-height duration-300 ease-in-out overflow-hidden md:overflow-visible`}
         >
+          {/* About us Button */}
+          <div className="group ms-8 h-20 flex items-center">
+            <Link
+              href="/flexi-od"
+              className="text-gray-600 hover:text-gray-800"
+            >
+              About Us
+            </Link>
+          </div>
+
           {!activeMenu
             ? Object.keys(menuData).map((key) => (
                 <Menu
@@ -117,17 +127,13 @@ const Navbar = () => {
               ))
             : null}
 
-          {/* Flexi OD Button */}
+          {/* Blog Button */}
           <div className="group ms-8 h-20 flex items-center">
-            <Link href="/flexi-od" className="text-gray-600 hover:text-gray-800">
-              Flexi OD
-            </Link>
-          </div>
-
-          {/* Car Loan Button */}
-          <div className="group ms-8 h-20 flex items-center">
-            <Link href="/car-loan" className="text-gray-600 hover:text-gray-800">
-              Car Loan
+            <Link
+              href="/flexi-od"
+              className="text-gray-600 hover:text-gray-800"
+            >
+              Blog
             </Link>
           </div>
 
@@ -176,5 +182,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
